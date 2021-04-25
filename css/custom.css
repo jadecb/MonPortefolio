@@ -1,2 +1,56 @@
+.skills{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.skill{
+    width: calc(50% - 20px);
+    margin: 15px 0;
+}
+.skill-info{
+    display: flex;
+    justify-content: space-between;
+}
+.skill-bar{
+    height: 3px;
+    background-color: #ddd;
+    margin-top: 14px;
+    position: relative;
+}
+.skill-bar::after{
+    content: "";
+    position: absolute;
+    height: 6px;
+    background-color: #48dbfb;
+    bottom: 0;
+}
 
+.html:after{
+    width: 89%;
+}
+.css:after{
+    width: 65%;
+}
+.php:after{
+    width: 60%;
+}
+.csharp:after{
+    width: 60%;
+}
+.java:after{
+    width: 50%;
+}
+.js:after{
+    width: 15%;
+}
+.sql:after{
+    width: 65%;
+}
+.GLPI:after{
+    width: 30%;
+}
+.Python:after{
+    width: 40%;
+}
 /** ADD YOUR AWESOME CODES HERE **/
